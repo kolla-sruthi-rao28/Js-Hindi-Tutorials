@@ -61,15 +61,40 @@ console.log(negValue); // -3
     // /
     // %
 
-let str1 = "hello";
-let str2 = " Kolla";
-let str3 = str1 + str2;
-console.log(str3);
-console.log("1"+2); //12
-console.log(1+"2"); //12
-console.log("1"+2+2); 122
-console.log(1+2+"2"); //32
-console.log(+true); //1
-console.log(+""); //0
+// let str1 = "hello";
+// let str2 = " Kolla";
+// let str3 = str1 + str2;
+// console.log(str3);
+// console.log("1"+2); //12
+// console.log(1+"2"); //12
+// console.log("1"+2+2); 122
+// console.log(1+2+"2"); //32
+// console.log(+true); //1
+// console.log(+""); //0
+
+// Prefix & Post Increament  
+        // let x = 3;
+        // const y = x++;
+
+        // console.log(`x:${x}, y:${y}`);
+        // // Expected output: "x:4, y:3"
+
+        // let a = 3;
+        // const b = ++a;
+
+        // console.log(`a:${a}, b:${b}`);
+        // // Expected output: "a:4, b:4"  
 
 
+// Prefix & Post Decrement  
+        let x = 3;
+        const y = x--;
+
+        console.log(`x:${x}, y:${y}`);
+        // Expected output: "x:2, y:3"
+
+        let a = 3;
+        const b = --a;
+
+        console.log(`a:${a}, b:${b}`);
+        // Expected output: "a:2, b:2"  
