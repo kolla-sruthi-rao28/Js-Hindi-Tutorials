@@ -98,3 +98,9 @@ console.log(negValue); // -3
 
         console.log(`a:${a}, b:${b}`);
         // Expected output: "a:2, b:2"  
+
+//Example:
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter); //101
